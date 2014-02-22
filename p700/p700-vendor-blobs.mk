@@ -21,10 +21,8 @@
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
-    vendor/lge/p700/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
-    vendor/lge/p700/proprietary/lib/libnv.so:obj/lib/libnv.so
-
-
+    vendor/lge/p700/proprietary/lib/liboncrpc:obj/lib/liboncrpc \
+    vendor/lge/p700/proprietary/lib/libnv:obj/lib/libnv
 
 PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
@@ -35,16 +33,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p700/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/p700/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/lge/p700/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/lge/p700/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/p700/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/lge/p700/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/lge/p700/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/lge/p700/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/p700/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p700/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/lge/p700/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
     vendor/lge/p700/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p700/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p700/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
-    vendor/lge/p700/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
     vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
     vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
     vendor/lge/p700/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
@@ -109,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/p700/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/p700/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
-    vendor/lge/p700/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/lge/p700/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
     vendor/lge/p700/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/p700/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
@@ -120,15 +120,19 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/p700/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/p700/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/lge/p700/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
+    vendor/lge/p700/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+    vendor/lge/p700/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/p700/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/lge/p700/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/p700/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/p700/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p700/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so
+    vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/lge/p700/proprietary/lib/libqmi_client_griffon.so:system/lib/libqmi_client_griffon.so \
+    vendor/lge/p700/proprietary/lib/librpc.so:system/lib/librpc.so

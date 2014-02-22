@@ -20,39 +20,51 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so
+    vendor/lge/e610/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
+    vendor/lge/e610/proprietary/lib/liboncrpc:obj/lib/liboncrpc \
+    vendor/lge/e610/proprietary/lib/libnv:obj/lib/libnv
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/e610/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
-    vendor/lge/e610/proprietary/lib/hw/sensors.m4.so:system/lib/hw/sensors.m4.so \
     vendor/lge/e610/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/e610/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/e610/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/lge/e610/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/e610/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/lge/e610/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/lge/e610/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/e610/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/lge/e610/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/e610/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/lge/e610/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/lge/e610/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/lge/e610/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/e610/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
-    vendor/lge/e610/proprietary/lib/hw/vendor-camera.msm7x27a.so:system/lib/hw/vendor-camera.msm7x27a.so \
+    vendor/lge/e610/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/lge/e610/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/lge/e610/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/lge/e610/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/lge/e610/proprietary/bin/rild:system/bin/rild \
+    vendor/lge/e610/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/e610/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
     vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
     vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
     vendor/lge/e610/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini:system/etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini \
+    vendor/lge/e610/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    vendor/lge/e610/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/lge/e610/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/lge/e610/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/lge/e610/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/lge/e610/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    vendor/lge/e610/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/lge/e610/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    vendor/lge/e610/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/lge/e610/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
+    vendor/lge/e610/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    vendor/lge/e610/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/lge/e610/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/lge/e610/proprietary/lib/hw/lights.msm7x27a.so:system/lib/hw/lights.msm7x27a.so \
+    vendor/lge/e610/proprietary/lib/hw/sensors.m4.so:system/lib/hw/sensors.m4.so \
+    vendor/lge/e610/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
+    vendor/lge/e610/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/lge/e610/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/lge/e610/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/e610/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
     vendor/lge/e610/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/lge/e610/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/lge/e610/proprietary/lib/libwfcu.so:system/lib/libwfcu.so \
     vendor/lge/e610/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/e610/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/e610/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+    vendor/lge/e610/proprietary/lib/libqmi_client_griffon.so:system/lib/libqmi_client_griffon.so \
     vendor/lge/e610/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/e610/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/e610/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -76,10 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/e610/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/lge/e610/proprietary/lib/libauth.so:system/lib/libauth.so \
-    vendor/lge/e610/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/e610/proprietary/bin/qmiproxy:system/bin/qmiproxy \
-    vendor/lge/e610/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/lge/e610/proprietary/bin/rild:system/bin/rild \
     vendor/lge/e610/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/e610/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
     vendor/lge/e610/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
@@ -107,27 +115,25 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/e610/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/e610/proprietary/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so \
-    vendor/lge/e610/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/lge/e610/proprietary/lib/libOmxIttiamVenc.so:system/lib/libOmxIttiamVenc.so \
-    vendor/lge/e610/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/lge/e610/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
-    vendor/lge/e610/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/e610/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
-    vendor/lge/e610/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/e610/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/e610/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/e610/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/e610/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/e610/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/lge/e610/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
+    vendor/lge/e610/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+    vendor/lge/e610/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/lge/e610/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/lge/e610/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/e610/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/e610/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/e610/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/e610/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd
+    vendor/lge/e610/proprietary/lib/librpc.so:system/lib/librpc.so \
+    vendor/lge/e610/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
