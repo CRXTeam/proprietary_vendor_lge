@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p705/proprietary/lib/hw/sensors.u0.so:system/lib/hw/sensors.u0.so \
     vendor/lge/p705/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/p705/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/p705/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/lge/p705/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lge/p705/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/lge/p705/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p705/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -135,3 +137,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p705/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/p705/proprietary/lib/libqmi_client_griffon.so:system/lib/libqmi_client_griffon.so \
     vendor/lge/p705/proprietary/lib/librpc.so:system/lib/librpc.so
+
