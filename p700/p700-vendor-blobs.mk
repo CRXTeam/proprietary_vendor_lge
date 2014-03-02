@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/p700/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p700/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+	vendor/lge/p700/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/p700/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/p700/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/p700/proprietary/lib/libqueue.so:system/lib/libqueue.so \

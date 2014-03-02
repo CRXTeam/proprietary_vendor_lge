@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p705/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/p705/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/lge/p705/proprietary/lib/libqdi.so:system/lib/libqdi.so \
+	vendor/lge/p705/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/p705/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/lge/p705/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/lge/p705/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
