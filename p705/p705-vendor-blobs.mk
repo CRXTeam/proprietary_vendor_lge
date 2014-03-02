@@ -65,7 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p705/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/p705/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/lge/p705/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-	vendor/lge/p705/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
+    vendor/lge/p705/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/p705/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/lge/p705/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/lge/p705/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
@@ -137,5 +137,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p705/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/p705/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/p705/proprietary/lib/libqmi_client_griffon.so:system/lib/libqmi_client_griffon.so \
-    vendor/lge/p705/proprietary/lib/librpc.so:system/lib/librpc.so
-
+    vendor/lge/p705/proprietary/lib/librpc.so:system/lib/librpc.so \
+    vendor/lge/e610/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+    vendor/lge/e610/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
+    vendor/lge/e610/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
+    vendor/lge/e610/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+    vendor/lge/e610/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so
