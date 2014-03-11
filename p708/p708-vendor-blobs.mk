@@ -119,9 +119,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p708/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p708/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/p708/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/lge/p708/proprietary/lib/libchromatrix_mt9e013_lgit_default_video.so:system/lib/libchromatrix_mt9e013_lgit_default_video.so \
-    vendor/lge/p708/proprietary/lib/libchromatrix_mt9e013_lgit_preview.so:system/lib/libchromatrix_mt9e013_lgit_preview.so \
-    vendor/lge/p708/proprietary/lib/libchromatrix_mt9e013_lgit_preview_hfr.so:system/lib/libchromatrix_mt9e013_lgit_preview_hfr.so \
+    vendor/lge/p708/proprietary/lib/libchromatix_mt9e013_lgit_default_video.so:system/lib/libchromatix_mt9e013_lgit_default_video.so \
+    vendor/lge/p708/proprietary/lib/libchromatix_mt9e013_lgit_preview.so:system/lib/libchromatix_mt9e013_lgit_preview.so \
+    vendor/lge/p708/proprietary/lib/libchromatix_mt9e013_lgit_preview_hfr.so:system/lib/libchromatix_mt9e013_lgit_preview_hfr.so \
     vendor/lge/p708/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/p708/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/p708/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
