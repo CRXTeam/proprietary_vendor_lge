@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p708/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p708/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p708/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/p708/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
     vendor/lge/p708/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
     vendor/lge/p708/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
     vendor/lge/p708/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
