@@ -119,7 +119,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p708/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p708/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/p708/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/lge/p708/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
+    vendor/lge/p708/proprietary/lib/libchromatrix_mt9e013_lgit_default_video.so:system/lib/libchromatrix_mt9e013_lgit_default_video.so \
+    vendor/lge/p708/proprietary/lib/libchromatrix_mt9e013_lgit_preview.so:system/lib/libchromatrix_mt9e013_lgit_preview.so \
+    vendor/lge/p708/proprietary/lib/libchromatrix_mt9e013_lgit_preview_hfr.so:system/lib/libchromatrix_mt9e013_lgit_preview_hfr.so \
     vendor/lge/p708/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/p708/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/p708/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
@@ -132,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p708/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/lge/p708/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/p708/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+    vendor/lge/p708/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/lge/p708/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/p708/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p708/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
