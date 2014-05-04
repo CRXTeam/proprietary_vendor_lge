@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p705/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/p705/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p705/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+	vendor/lge/p705/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/p705/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/p705/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/p705/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -65,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p705/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/p705/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/lge/p705/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/lge/p705/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/p705/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/lge/p705/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/lge/p705/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
@@ -122,9 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p705/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/p705/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/p705/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/lge/p705/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
-    vendor/lge/p705/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
-    vendor/lge/p705/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/p705/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/p705/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/p705/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -136,10 +133,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p705/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p705/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/p705/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/p705/proprietary/lib/libqmi_client_griffon.so:system/lib/libqmi_client_griffon.so \
-    vendor/lge/p705/proprietary/lib/librpc.so:system/lib/librpc.so \
     vendor/lge/p705/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/lge/p705/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/p705/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/lge/p705/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/p705/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so
+

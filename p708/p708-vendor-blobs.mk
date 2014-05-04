@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p708/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p708/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p708/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/p708/proprietary/lib/libchromatix_hi542_preview.so:system/lib/libchromatix_hi542_preview.so \
     vendor/lge/p708/proprietary/etc/firmware/wlan/volans/WCN1314_cfg.dat:system/etc/firmware/wlan/volans/WCN1314_cfg.dat \
     vendor/lge/p708/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_wlan_nv.bin \
     vendor/lge/p708/proprietary/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin:system/etc/firmware/wlan/volans/WCN1314_qcom_fw.bin \
@@ -57,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p708/proprietary/lib/libwcnftm.so:system/lib/libwcnftm.so \
     vendor/lge/p708/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p708/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+	vendor/lge/p708/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/p708/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/lge/p708/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/lge/p708/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -64,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p708/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/p708/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/lge/p708/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/lge/p708/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/p708/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
     vendor/lge/p708/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/lge/p708/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
@@ -118,14 +119,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p708/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p708/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/p708/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/lge/p708/proprietary/lib/libchromatix_mt9e013_lgit_default_video.so:system/lib/libchromatix_mt9e013_lgit_default_video.so \
-    vendor/lge/p708/proprietary/lib/libchromatix_mt9e013_lgit_preview.so:system/lib/libchromatix_mt9e013_lgit_preview.so \
-    vendor/lge/p708/proprietary/lib/libchromatix_mt9e013_lgit_video_hfr.so:system/lib/libchromatix_mt9e013_lgit_video_hfr.so \
+    vendor/lge/p708/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/p708/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/p708/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/lge/p708/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
-    vendor/lge/p708/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
-    vendor/lge/p708/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/p708/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/p708/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/p708/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -133,16 +129,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p708/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/lge/p708/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
     vendor/lge/p708/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/lge/p708/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
     vendor/lge/p708/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lge/p708/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p708/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/p708/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/p708/proprietary/lib/libqmi_client_griffon.so:system/lib/libqmi_client_griffon.so \
-    vendor/lge/p708/proprietary/lib/librpc.so:system/lib/librpc.so \
     vendor/lge/p708/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/lge/p708/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/p708/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
     vendor/lge/p708/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/p708/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so
-    
+

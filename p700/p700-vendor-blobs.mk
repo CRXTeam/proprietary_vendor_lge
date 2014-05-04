@@ -123,8 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libchromatix_hi542_default_video.so:system/lib/libchromatix_hi542_default_video.so \
     vendor/lge/p700/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/p700/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/lge/p700/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
-    vendor/lge/p700/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
     vendor/lge/p700/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/p700/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
@@ -136,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p700/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/p700/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/p700/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/p700/proprietary/lib/librpc.so:system/lib/librpc.so \
     vendor/lge/p700/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/lge/p700/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/p700/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
