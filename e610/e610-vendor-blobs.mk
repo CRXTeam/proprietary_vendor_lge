@@ -121,8 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/lge/e610/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/e610/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
-    vendor/lge/e610/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
-    vendor/lge/e610/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/lge/e610/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
@@ -133,10 +131,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e610/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/lge/e610/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/e610/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/e610/proprietary/lib/librpc.so:system/lib/librpc.so \
     vendor/lge/e610/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/e610/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/lge/e610/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/e610/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/lge/e610/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/lge/e610/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so
+    vendor/lge/e610/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so
