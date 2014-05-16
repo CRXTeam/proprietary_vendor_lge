@@ -80,6 +80,46 @@ PRODUCT_COPY_FILES += \
  vendor/lge/d605/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
  vendor/lge/d605/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
  vendor/lge/d605/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+ vendor/lge/d605/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+ vendor/lge/d605/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+ vendor/lge/d605/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+ vendor/lge/d605/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+ vendor/lge/d605/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+ vendor/lge/d605/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+ vendor/lge/d605/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+ vendor/lge/d605/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+ vendor/lge/d605/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+ vendor/lge/d605/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+ vendor/lge/d605/proprietary/lib/libmercury.so:system/lib/libmercury.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+ vendor/lge/d605/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+ vendor/lge/d605/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+ vendor/lge/d605/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
+ vendor/lge/d605/proprietary/lib/libHDR.so:system/lib/libHDR.so \
+ vendor/lge/d605/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+ vendor/lge/d605/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+ vendor/lge/d605/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+ vendor/lge/d605/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+ vendor/lge/d605/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
+ vendor/lge/d605/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
+ vendor/lge/d605/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
+ vendor/lge/d605/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
+ vendor/lge/d605/proprietary/lib/libchromatix_imx119_video_hd.so:system/lib/libchromatix_imx119_video_hd.so \
+ vendor/lge/d605/proprietary/lib/libchromatix_imx111_video_hd.so:system/lib/libchromatix_imx111_video_hd.so \
+ vendor/lge/d605/proprietary/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
+ vendor/lge/d605/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
+ vendor/lge/d605/proprietary/lib/libchromatix_imx119_default_video.so:system/lib/libchromatix_imx119_default_video.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+ vendor/lge/d605/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
  vendor/lge/d605/proprietary/lib/libqmi.so:system/lib/libqmi.so \
  vendor/lge/d605/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
  vendor/lge/d605/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
@@ -107,11 +147,30 @@ PRODUCT_COPY_FILES += \
  vendor/lge/d605/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
  vendor/lge/d605/proprietary/lib/libdiagd_client.so:system/lib/libdiagd_client.so \
  vendor/lge/d605/proprietary/lib/libbluedroid_bdt.so:system/lib/libbluedroid_bdt.so \
+ vendor/lge/d605/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
+ vendor/lge/d605/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
+ vendor/lge/d605/proprietary/lib/libxml.so:system/lib/libxml.so \
+ vendor/lge/d605/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+ vendor/lge/d605/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+ vendor/lge/d605/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
+ vendor/lge/d605/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
  vendor/lge/d605/proprietary/bin/qmuxd:system/bin/qmuxd \
  vendor/lge/d605/proprietary/bin/netmgrd:system/bin/netmgrd \
  vendor/lge/d605/proprietary/bin/rmt_storage:system/bin/rmt_storage \
  vendor/lge/d605/proprietary/bin/sensord:system/bin/sensord \
  vendor/lge/d605/proprietary/bin/atd:system/bin/atd \
+ vendor/lge/d605/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+ vendor/lge/d605/proprietary/bin/cnd:system/bin/cnd \
+ vendor/lge/d605/proprietary/bin/time_daemon:system/bin/time_daemon \
+ vendor/lge/d605/proprietary/bin/qseecomd:system/bin/qseecomd \
+ vendor/lge/d605/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+ vendor/lge/d605/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
+ vendor/lge/d605/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
+ vendor/lge/d605/proprietary/bin/ssbd:system/bin/ssbd \
+ vendor/lge/d605/proprietary/bin/thermald:system/bin/thermald \
+ vendor/lge/d605/proprietary/bin/mpdecision:system/bin/mpdecision \
+ vendor/lge/d605/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+ vendor/lge/d605/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
  vendor/lge/d605/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
  vendor/lge/d605/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
  vendor/lge/d605/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
