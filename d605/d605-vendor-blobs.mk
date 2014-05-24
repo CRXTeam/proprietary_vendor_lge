@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
  vendor/lge/d605/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
  vendor/lge/d605/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
  vendor/lge/d605/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+ vendor/lge/d605/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
  vendor/lge/d605/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
  vendor/lge/d605/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
  vendor/lge/d605/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -106,7 +107,6 @@ PRODUCT_COPY_FILES += \
  vendor/lge/d605/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
  vendor/lge/d605/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
  vendor/lge/d605/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
- vendor/lge/d605/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
  vendor/lge/d605/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
  vendor/lge/d605/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
  vendor/lge/d605/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
@@ -190,4 +190,5 @@ PRODUCT_COPY_FILES += \
  vendor/lge/d605/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
  vendor/lge/d605/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
  vendor/lge/d605/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
- vendor/lge/d605/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt
+ vendor/lge/d605/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+ vendor/lge/d605/proprietary/bin/BCM43341B0_002.001.014.0064.0071.hcd:system/bin/BCM43341B0_002.001.014.0064.0071.hcd
