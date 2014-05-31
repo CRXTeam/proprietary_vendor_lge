@@ -87,6 +87,9 @@ PRODUCT_COPY_FILES += \
  vendor/lge/d605/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
  vendor/lge/d605/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
  vendor/lge/d605/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+ vendor/lge/d605/proprietary/lib/hw/nfc_lg.default.so:system/lib/hw/nfc_lg.default.so \
+ vendor/lge/d605/proprietary/lib/libnfc-brcm-nci.so:system/lib/libnfc-brcm-nci.so \
+ vendor/lge/d605/proprietary/lib/libLGnfc_config.so:system/lib/libLGnfc_config.so \
  vendor/lge/d605/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
  vendor/lge/d605/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
  vendor/lge/d605/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -140,7 +143,6 @@ PRODUCT_COPY_FILES += \
  vendor/lge/d605/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
  vendor/lge/d605/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
  vendor/lge/d605/proprietary/lib/libnfc.so:system/lib/libnfc.so \
- vendor/lge/d605/proprietary/lib/libnfc-brcm-nci.so:system/lib/libnfc-brcm-nci.so \
  vendor/lge/d605/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
  vendor/lge/d605/proprietary/lib/liblgsecclk.so:system/lib/liblgsecclk.so \
  vendor/lge/d605/proprietary/lib/libwvoemprov.so:system/lib/libwvoemprov.so \
@@ -191,4 +193,6 @@ PRODUCT_COPY_FILES += \
  vendor/lge/d605/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
  vendor/lge/d605/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
  vendor/lge/d605/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
- vendor/lge/d605/proprietary/bin/BCM43341B0_002.001.014.0064.0071.hcd:system/bin/BCM43341B0_002.001.014.0064.0071.hcd
+ vendor/lge/d605/proprietary/bin/BCM43341B0_002.001.014.0064.0071.hcd:system/bin/BCM43341B0_002.001.014.0064.0071.hcd \
+ vendor/lge/d605/proprietary/vendor/firmware/BCM43341NFCB0_002.001.009.0031.0044_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM43341NFCB0_002.001.009.0031.0044_Generic_I2C_NCD_Signed_configdata.ncd \
+ vendor/lge/d605/proprietary/vendor/firmware/BCM43341NFCB0_002.001.009.0031.0044_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM43341NFCB0_002.001.009.0031.0044_Generic_PreI2C_NCD_Signed_configdata.ncd
