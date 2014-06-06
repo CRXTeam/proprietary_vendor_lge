@@ -156,6 +156,9 @@ PRODUCT_COPY_FILES += \
  vendor/lge/d605/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
  vendor/lge/d605/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
  vendor/lge/d605/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+ vendor/lge/d605/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+ vendor/lge/d605/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+ vendor/lge/d605/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
  vendor/lge/d605/proprietary/bin/qmuxd:system/bin/qmuxd \
  vendor/lge/d605/proprietary/bin/netmgrd:system/bin/netmgrd \
  vendor/lge/d605/proprietary/bin/rmt_storage:system/bin/rmt_storage \
