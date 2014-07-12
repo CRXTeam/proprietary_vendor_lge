@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES := \
 packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 PRODUCT_PACKAGES += libacdbloader
+PRODUCT_PACKAGES += libtime_genoff
 
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/lge/d605/overlay
